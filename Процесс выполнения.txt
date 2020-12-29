@@ -1,0 +1,194 @@
+2020-12-29 01:58:16.899683: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2020-12-29 01:58:26.955999: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-29 01:58:26.976109: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll
+2020-12-29 01:58:27.777088: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:01:00.0 name: GeForce MX150 computeCapability: 6.1
+coreClock: 1.5315GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 44.76GiB/s
+2020-12-29 01:58:27.791645: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2020-12-29 01:58:27.837838: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2020-12-29 01:58:27.842979: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2020-12-29 01:58:27.892623: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cufft64_10.dll
+2020-12-29 01:58:27.899847: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library curand64_10.dll
+2020-12-29 01:58:27.907411: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found
+2020-12-29 01:58:27.925792: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusparse64_11.dll
+2020-12-29 01:58:27.932657: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+2020-12-29 01:58:27.941277: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-12-29 01:58:28.545629: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-29 01:58:28.550886: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0
+2020-12-29 01:58:28.556772: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N
+2020-12-29 01:58:28.560049: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-29 01:58:28.571820: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-29 01:58:28.584043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties:
+pciBusID: 0000:01:00.0 name: GeForce MX150 computeCapability: 6.1
+coreClock: 1.5315GHz coreCount: 3 deviceMemorySize: 2.00GiB deviceMemoryBandwidth: 44.76GiB/s
+2020-12-29 01:58:28.602298: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2020-12-29 01:58:28.614544: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2020-12-29 01:58:28.622257: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2020-12-29 01:58:28.638225: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cufft64_10.dll
+2020-12-29 01:58:28.650905: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library curand64_10.dll
+2020-12-29 01:58:28.659389: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found
+2020-12-29 01:58:28.675801: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusparse64_11.dll
+2020-12-29 01:58:28.684876: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+2020-12-29 01:58:28.692616: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-12-29 01:58:28.724022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-12-29 01:58:28.732973: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]
+2020-12-29 01:58:28.739359: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2020-12-29 01:58:30.783869: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+Count of train images: 41076
+Count of validation images: 937
+Model: "model"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+input_2 (InputLayer)         [(None, 224, 224, 1)]     0
+_________________________________________________________________
+tf.image.grayscale_to_rgb (T (None, 224, 224, 3)       0
+_________________________________________________________________
+mobilenetv2_1.00_224 (Functi (None, 7, 7, 1280)        2257984
+_________________________________________________________________
+conv2d_transpose (Conv2DTran (None, 28, 28, 128)       2621568
+_________________________________________________________________
+conv2d_transpose_1 (Conv2DTr (None, 56, 56, 128)       65664
+_________________________________________________________________
+conv2d_transpose_2 (Conv2DTr (None, 112, 112, 64)      32832
+_________________________________________________________________
+conv2d_transpose_3 (Conv2DTr (None, 224, 224, 2)       514
+_________________________________________________________________
+dense (Dense)                (None, 224, 224, 2)       6
+=================================================================
+Total params: 4,978,568
+Trainable params: 2,720,584
+Non-trainable params: 2,257,984
+_________________________________________________________________
+None
+2020-12-29 01:59:08.206308: I tensorflow/core/profiler/lib/profiler_session.cc:136] Profiler session initializing.
+2020-12-29 01:59:08.210532: I tensorflow/core/profiler/lib/profiler_session.cc:155] Profiler session started.
+2020-12-29 01:59:08.218645: I tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1365] Profiler found 1 GPUs
+2020-12-29 01:59:08.235477: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cupti64_110.dll'; dlerror: cupti64_110.dll not found
+2020-12-29 01:59:08.250702: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cupti.dll'; dlerror: cupti.dll not found
+2020-12-29 01:59:08.265726: E tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1415] function cupti_interface_->Subscribe( &subscriber_, (CUpti_CallbackFunc)ApiCallback, this)failed with error CUPTI could not be loaded or symbol could not be found.
+2020-12-29 01:59:08.287275: I tensorflow/core/profiler/lib/profiler_session.cc:172] Profiler session tear down.
+2020-12-29 01:59:08.297978: E tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1496] function cupti_interface_->Finalize()failed with error CUPTI could not be loaded or symbol could not be found.
+Epoch 1/15
+2020-12-29 01:59:14.141280: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 616562688 exceeds 10% of free system memory.
+2020-12-29 01:59:14.381152: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 627621888 exceeds 10% of free system memory.
+      1/Unknown - 11s 11s/step - loss: 0.31832020-12-29 01:59:21.049958: I tensorflow/core/profiler/lib/profiler_session.cc:136] Profiler session initializing.
+2020-12-29 01:59:21.054813: I tensorflow/core/profiler/lib/profiler_session.cc:155] Profiler session started.
+2020-12-29 01:59:21.060039: E tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1415] function cupti_interface_->Subscribe( &subscriber_, (CUpti_CallbackFunc)ApiCallback, this)failed with error CUPTI could not be loaded or symbol could not be found.
+2020-12-29 01:59:22.519231: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 616562688 exceeds 10% of free system memory.
+2020-12-29 01:59:22.719468: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 627621888 exceeds 10% of free system memory.
+      2/Unknown - 20s 9s/step - loss: 0.3084 2020-12-29 01:59:28.483455: I tensorflow/core/profiler/lib/profiler_session.cc:71] Profiler session collecting data.
+2020-12-29 01:59:28.487138: E tensorflow/core/profiler/internal/gpu/cupti_tracer.cc:1496] function cupti_interface_->Finalize()failed with error CUPTI could not be loaded or symbol could not be found.
+2020-12-29 01:59:28.527014: I tensorflow/core/profiler/internal/gpu/cupti_collector.cc:228]  GpuTracer has collected 0 callback api events and 0 activity events.
+2020-12-29 01:59:28.561583: I tensorflow/core/profiler/lib/profiler_session.cc:172] Profiler session tear down.
+2020-12-29 01:59:28.704023: I tensorflow/core/profiler/rpc/client/save_profile.cc:137] Creating directory: D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28
+2020-12-29 01:59:28.771862: I tensorflow/core/profiler/rpc/client/save_profile.cc:143] Dumped gzipped tool data for trace.json.gz to D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28\DESKTOP-AJKFJEK.trace.json.gz
+2020-12-29 01:59:28.820834: I tensorflow/core/profiler/rpc/client/save_profile.cc:137] Creating directory: D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28
+2020-12-29 01:59:28.861020: I tensorflow/core/profiler/rpc/client/save_profile.cc:143] Dumped gzipped tool data for memory_profile.json.gz to D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28\DESKTOP-AJKFJEK.memory_profile.json.gz
+2020-12-29 01:59:29.028602: I tensorflow/core/profiler/rpc/client/capture_profile.cc:251] Creating directory: D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28Dumped tool data for xplane.pb to D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28\DESKTOP-AJKFJEK.xplane.pb
+Dumped tool data for overview_page.pb to D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28\DESKTOP-AJKFJEK.overview_page.pb
+Dumped tool data for input_pipeline.pb to D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28\DESKTOP-AJKFJEK.input_pipeline.pb
+Dumped tool data for tensorflow_stats.pb to D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28\DESKTOP-AJKFJEK.tensorflow_stats.pb
+Dumped tool data for kernel_stats.pb to D:\pictures\Runs\LogsTrain20201229-015828\train\plugins\profile\2020_12_28_22_59_28\DESKTOP-AJKFJEK.kernel_stats.pb
+
+2020-12-29 01:59:30.611580: W tensorflow/core/framework/cpu_allocator_impl.cc:80] Allocation of 616562688 exceeds 10% of free system memory.
+321/321 [==============================] - 2613s 8s/step - loss: 0.1359 - val_loss: 0.0759
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.4093714952468872, min: 0.0, mean: 0.44909181205171
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 8.115481414162845, min: 0.0, mean: 1.952607961271957
+Epoch 2/15
+321/321 [==============================] - 2590s 8s/step - loss: 0.0565 - val_loss: 0.0716
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.4685070514678955, min: 0.0, mean: 0.5070493821342671
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 8.678513747674248, min: 0.0, mean: 1.9921826976368049
+Epoch 3/15
+321/321 [==============================] - 2619s 8s/step - loss: 0.0543 - val_loss: 0.0701
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.3619790077209473, min: 0.0, mean: 0.5013558015044824
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 8.389239931674512, min: 0.0, mean: 1.9860025370011969
+Epoch 4/15
+321/321 [==============================] - 2623s 8s/step - loss: 0.0532 - val_loss: 0.0693
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.367777943611145, min: 0.0, mean: 0.49890227284104083
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 8.438905613238633, min: 0.0, mean: 1.984898666734202
+Epoch 5/15
+321/321 [==============================] - 2621s 8s/step - loss: 0.0524 - val_loss: 0.0688
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.1842745542526245, min: 0.0, mean: 0.4903601148166931
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 7.860833157008766, min: 0.0, mean: 1.972815299360628
+Epoch 6/15
+321/321 [==============================] - 2610s 8s/step - loss: 0.0523 - val_loss: 0.0678
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.0773184299468994, min: 0.0, mean: 0.47426615152967794
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 7.518782670410636, min: 0.0, mean: 1.9681912771864176
+Epoch 7/15
+321/321 [==============================] - 2630s 8s/step - loss: 0.0521 - val_loss: 0.0685
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.2440721988677979, min: 0.0, mean: 0.5000338119942846
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 8.0413145933991, min: 0.0, mean: 1.9852952442725844
+Epoch 8/15
+321/321 [==============================] - 2618s 8s/step - loss: 0.0520 - val_loss: 0.0687
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.1623947620391846, min: 0.0, mean: 0.5005901212405915
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 7.739571766540985, min: 0.0, mean: 1.9844991989704324
+Epoch 9/15
+321/321 [==============================] - 2603s 8s/step - loss: 0.0514 - val_loss: 0.0685
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.2128585577011108, min: 0.0, mean: 0.5021735173863261
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 7.9896418166995655, min: 0.0, mean: 1.9846629909590385
+Epoch 10/15
+321/321 [==============================] - 2591s 8s/step - loss: 0.0513 - val_loss: 0.0674
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.0990897417068481, min: 0.0, mean: 0.4840574600064962
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 7.615850858781714, min: 0.0, mean: 1.9723909671126183
+Epoch 11/15
+321/321 [==============================] - 2613s 8s/step - loss: 0.0512 - val_loss: 0.0683
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.1289867162704468, min: 0.0, mean: 0.49859190821300636
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 7.733186411472457, min: 0.0, mean: 1.9802143182453438
+Epoch 12/15
+321/321 [==============================] - 2690s 8s/step - loss: 0.0511 - val_loss: 0.0672
+Info about image in Lab format
+Max in target: 1.0, min: 0.0, mean: 0.47140639664517725
+Max in predicted: 1.167290210723877, min: 0.0, mean: 0.487586692774982
+Info about image in RGB format
+Max in target: 7.4309067635543675, min: 0.0, mean: 1.9321337649805121
+Max in predicted: 7.850876285495108, min: 0.0, mean: 1.976187698021027
+Epoch 13/15
+ 20/321 [>.............................] - ETA: 2:38:09 - loss: 0.0514
